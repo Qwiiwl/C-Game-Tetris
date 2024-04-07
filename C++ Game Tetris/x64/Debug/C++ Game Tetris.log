@@ -1,0 +1,34 @@
+﻿LINK : error LNK2001: неразрешенный внешний символ mainCRTSstartup.
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__invalid_parameter в функции "void * __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)" (??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__calloc_dbg в функции "char * __cdecl std::_Maklocstr<char>(char const *,char *,struct _Cvtvec const &)" (??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__CrtDbgReport в функции "void * __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)" (??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_srand в функции main.
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_rand в функции main.
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ memcpy в функции "public: static char * __cdecl std::_Char_traits<char,int>::copy(char * const,char const * const,unsigned __int64)" (?copy@?$_Char_traits@DH@std@@SAPEADQEADQEBD_K@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_wcslen в функции "wchar_t * __cdecl std::_Maklocwcs(wchar_t const *)" (?_Maklocwcs@std@@YAPEA_WPEB_W@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ strlen в функции "char * __cdecl std::_Maklocstr<char>(char const *,char *,struct _Cvtvec const &)" (??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ __std_exception_copy в функции "public: __cdecl std::exception::exception(class std::exception const &)" (??0exception@std@@QEAA@AEBV01@@Z).
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2001: неразрешенный внешний символ __std_exception_copy.
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ __std_exception_destroy в функции "public: virtual __cdecl std::exception::~exception(void)" (??1exception@std@@UEAA@XZ).
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2001: неразрешенный внешний символ __std_exception_destroy.
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__time64 в функции time.
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _CxxThrowException в функции "void __cdecl std::_Throw_bad_array_new_length(void)" (?_Throw_bad_array_new_length@std@@YAXXZ).
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2001: неразрешенный внешний символ _CxxThrowException.
+Game.obj : error LNK2001: неразрешенный внешний символ __CxxFrameHandler4.
+MSVCRTD.lib(gshandlereh4.obj) : error LNK2001: неразрешенный внешний символ __CxxFrameHandler4.
+MSVCRTD.lib(new_scalar.obj) : error LNK2019: ссылка на неразрешенный внешний символ _callnewh в функции "void * __cdecl operator new(unsigned __int64)" (??2@YAPEAX_K@Z).
+MSVCRTD.lib(new_scalar.obj) : error LNK2019: ссылка на неразрешенный внешний символ malloc в функции "void * __cdecl operator new(unsigned __int64)" (??2@YAPEAX_K@Z).
+MSVCRTD.lib(init.obj) : error LNK2019: ссылка на неразрешенный внешний символ _CrtDbgReport в функции _CRT_RTC_INIT.
+MSVCRTD.lib(init.obj) : error LNK2019: ссылка на неразрешенный внешний символ _CrtDbgReportW в функции _CRT_RTC_INITW.
+MSVCRTD.lib(delete_scalar.obj) : error LNK2019: ссылка на неразрешенный внешний символ _free_dbg в функции "void __cdecl operator delete(void *)" (??3@YAXPEAX@Z).
+MSVCRTD.lib(error.obj) : error LNK2019: ссылка на неразрешенный внешний символ strcpy_s в функции "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z).
+MSVCRTD.lib(error.obj) : error LNK2019: ссылка на неразрешенный внешний символ strcat_s в функции "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z).
+MSVCRTD.lib(error.obj) : error LNK2019: ссылка на неразрешенный внешний символ __stdio_common_vsprintf_s в функции _vsprintf_s_l.
+MSVCRTD.lib(error.obj) : error LNK2001: неразрешенный внешний символ __C_specific_handler_noexcept.
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: ссылка на неразрешенный внешний символ _wmakepath_s в функции "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z).
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: ссылка на неразрешенный внешний символ _wsplitpath_s в функции "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z).
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: ссылка на неразрешенный внешний символ wcscpy_s в функции "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z).
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: ссылка на неразрешенный внешний символ __vcrt_GetModuleFileNameW в функции "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ).
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: ссылка на неразрешенный внешний символ __vcrt_GetModuleHandleW в функции "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ).
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: ссылка на неразрешенный внешний символ __vcrt_LoadLibraryExW в функции "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ).
+F:\VS PROJECT\C++ Game Tetris\x64\Debug\C++ Game Tetris.exe : fatal error LNK1120: неразрешенных внешних элементов: 29
